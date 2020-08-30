@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    text-align: center;
+}
+
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover; /*O valor cover especifica que a imagem de fundo deve ser dimensionado de modo que seja tão pequena quanto possível ao mesmo tempo assegurar que ambas as dimensões são maiores do que ou igual à dimensão correspondente do recipiente.*/
+    height: 100%;
+    padding: 10px; /*distância do conteúdo pra borda*/
+}
+
+#titulo{
+    font-family: 'Dancing Script', cursive;
+    color: purple;
+    padding-top: 11%; /*distância do conteúdo pra borda*/
+    font-size: 420%;
+    margin: 0;
+}
+
+#subtitulo{
+    color: purple;
+    font-weight: 100; /*funciona como se conseguisse alterar o negrito da fonte*/
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 130%;
+    border-top: 1px purple solid;
+}
+
+#acao{
+    color: purple;
+    border: 1px purple solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+#projeto{
+    height: 110%;
+}
+
+h2{
+    padding-top: 1%; /*distância do conteúdo pra borda*/
+    color: purple;
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+}
+
+#paragrafos{
+    font-size: 105%;
+    color: purple;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 1%; /*distância do conteúdo pra borda*/
+    padding-bottom: 1%; /*distância do conteúdo pra borda*/
+}
