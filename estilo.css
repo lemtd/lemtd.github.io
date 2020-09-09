@@ -1,0 +1,406 @@
+html, body{
+    margin: 0;
+    /*text-align: center;*/
+}
+
+header{
+    background-color:black;
+    color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+#logo img{
+    width: 60px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+#menu{
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+li{
+    float: left;
+    padding: 23px 20px 27px 20px;
+}
+
+li:hover{
+    background-color: #BFA099;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}
+
+#imagem_fundo{
+    text-align: center;
+    background-image: url(img/fundo.jpg);
+    background-size: cover; /*O valor cover especifica que a imagem de fundo deve ser dimensionado de modo que seja tão pequena quanto possível ao mesmo tempo assegurar que ambas as dimensões são maiores ou iguais à dimensão correspondente do recipiente.*/
+    height: 100%;
+    padding: 10px; /*distância do conteúdo pra borda*/
+    background-attachment: fixed; /*quando mudar a imagem, usar isso para fixar*/
+}
+
+#titulo{
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+    color: white;
+    padding-top: 14%; /*distância do conteúdo pra borda*/
+    font-size: 300%; /*tamanho da fonte*/
+    margin: 0;
+    text-shadow: 2px 2px black; /*faz sombra*/
+    text-align: left;
+    margin-left: 50px;
+}
+
+#subtitulo{
+    color: white;
+    font-weight: 100; /*funciona como se conseguisse alterar o negrito da fonte*/
+    margin-right: 55%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 100%;
+    border-top: 1px white solid; /*a linha acima da descrição*/
+    text-shadow: 2px 2px black; /*faz sombra*/
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+}
+
+#acao{
+    color: white;
+    border-radius: 10px; /*deixa as bordas arredondadas*/
+    padding: 10px 20px 10px 20px; /*top right bottom left*/
+    background-color: #828282be; /*transparência*/
+    font-size: 20px;
+    text-decoration: none; /*tira a decoração do link*/
+    margin-right: 51.5%;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+}
+
+#acao:hover{
+    background-color: #ffffffbe;
+    color: black;
+} /*faz o efeito do botão*/
+
+section{
+    /*padding: 20px;*/
+    float: left;
+}
+
+#projeto{
+    padding-bottom: 50px;
+}
+
+#topo{
+    padding-top: 220px; /*deixando o video alinhado ao texto*/
+}
+
+.paragrafos{
+    font-size: 90%;
+    color: black;
+    padding-top: 1%; /*distância do conteúdo pra borda*/
+    padding-bottom: 1%; /*distância do conteúdo pra borda*/
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+}
+
+h3{
+    color: black;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 300%;
+    text-align: center;    
+}
+
+h4{
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    font-size: 130%;
+}
+
+.destaque{
+    background-color: #dfdfdf;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.meio{
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+}
+
+.icone{
+    width: 60px;
+}
+
+.icone:hover{
+    background-color: #bfa0997a;
+    border-radius: 15px;
+}
+
+.padrao{
+    font-size: 90%;
+}
+
+#ecopontos{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+}
+
+#referencia{
+    padding-left: 30%;
+    padding-right: 30%;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+    font-size: 90%;
+}
+
+.referencia{
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+    font-size: 90%;
+}
+
+.imgeco{
+    width: 60%;
+    padding-top: 50;
+}
+
+#sobre{
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+    font-size: 90%;
+}
+
+#imgsobre{
+    width: 60%;
+    padding-top: 120px;
+}
+
+#mps{
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+}
+
+#mps a{
+    text-decoration: none;
+    color: white;
+}
+
+#mps a:hover{
+    color: #BFA099;
+}
+
+#creditos{
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+}
+
+#creditos a{
+    text-decoration: none;
+    color: white;
+}
+
+#creditos a:hover{
+    color: #BFA099;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Petit Formal Script', cursive; /*código da fonte que escolhi*/
+    color: white;
+    float: left;
+    width: 100%;
+    height: 40%;
+    padding-top: 30px;
+}
+
+#footer img{
+    width: 20px;
+    position: absolute;
+}
+
+#i1{
+    padding-left: 60px;
+}
+
+#i2{
+    padding-left: 130px;
+}
+
+#i3{
+    padding-left: 160px;
+}
+
+#footer p{
+    padding-left: 40px;
+}
+
+#insta a{
+    text-decoration: none;
+    color: white;
+}
+
+.alinhar{
+    text-align: center;
+}
+
+#alinhartitulo{
+    text-align: center;
+}
+
+#insta a:hover{
+    color: #BFA099;
+}
+
+img:hover{
+    transform: scale(1.022);
+} /*amplia a imagem ao passar o mouse*/
+
+img{
+    transition: 500ms;
+} /*dá uma demorada na ampliação da imagem*/
+
+.coluna{ /*estruturando o site a partir daqui*/
+    float: left; /*faz a div flutuar, podendo assim alterar a posição da página, jogando todo conteúdo dentro para onde eu indicar*/
+    padding: 0 5%; /*primeiro valor: superior e inferior, o segundo para a esquerda e direita*/
+    position: relative; /*faz com que a posição do elemento (div) varie nesse valor com base no elemento que vem antes (div ao lado esquerdo)*/
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+@media all and (max-width: 768px){
+    
+    #menu{
+        visibility: hidden; /*escondendo o menu*/
+    }
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logo{
+        text-align: center;
+    }
+    #logo img{
+        margin-left: 0;
+        position: relative;
+    }
+    #imagem_fundo{
+        background-position: center;
+    }
+    #titulo{
+        padding-top: 28%;
+        font-size: 170%;
+        text-align: center;
+        margin-left: 0;
+    }    
+    #subtitulo{
+        text-align: center;
+        font-size: 95%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #acao{
+        text-align: center;
+        margin-right: 0;
+        font-size: 12px;
+    }
+    #topo{
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    #projeto{
+        padding-bottom: 25px;
+    }
+    h3{
+        font-size: 160%;
+    }
+    #selecao{
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+    #conceitos{
+        padding-bottom: 15px;
+    }
+    .icone{
+        padding-top: 15px;
+    }
+    .conceito{
+        padding-bottom: 25px;
+    }
+    #ecopontos{
+        padding-bottom: 25px;
+    }
+    #referencias{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .referencia{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #referencia{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #sobre{
+        padding-bottom: 25px;
+        padding-top: 8px;
+    }
+    #imgsobre{
+        padding-top: 25px;
+    }
+    footer{
+        height: 615px;
+        padding-top: 0;
+    }
+    #i1{
+        padding-left: 10px;
+    }
+    #i2{
+        padding-left: 73px;
+    }
+    #i3{
+        padding-left: 100px;
+    }
+    .alinhar{
+        padding-right: 15px;
+    }
+    .alinhartitulo{
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    #responsive{
+        text-decoration: none;
+    }
+} /*vai adaptar o site para responsivo. Observa o tamanho da tela que ta consumindo o site e faz as alterações necessárias*/
+
+
+
